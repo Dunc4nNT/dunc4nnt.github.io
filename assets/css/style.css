@@ -88,12 +88,12 @@ section {
 
 .info-section {
     min-height: 100vh;
-    background-image: linear-gradient(-120deg, #000, #2a475e 40%, #66c0f4);
+    background-image: linear-gradient(0deg, #000, #2a475e 40%, #66c0f4);
 }
 
 .dokusei-section {
     background-color: #5865F2;
-    background-image: linear-gradient(-120deg, #5865F2, #97a9b4);
+    background-image: linear-gradient( #000, #363F95, #4C55BB, #363F95, #000)
 }
 
 .dokusei-section > header > .link-buttons > .btn:hover {
@@ -102,7 +102,8 @@ section {
 
 .hagemansimp-section {
     background-color: #6441a5;
-    background-image: linear-gradient(-120deg, #6441a5, #b9a3e3);
+    /* background-image: linear-gradient( #000, #6039aa, #9146FF, #6039aa, #000); */
+    background-image: linear-gradient( #000, #6039aa, #9146FF);
 }
 
 .hagemansimp-section > header > .link-buttons > .btn:hover {
@@ -202,15 +203,15 @@ section {
 .show {
     opacity: 1;
     left: 0;
-    animation: reveal 3s cubic-bezier(0.19, 1, 0.22, 1);
+    animation: reveal 3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 @keyframes reveal {
     0% {
-        transform: translate(0, 100%);
+        opacity: 0;
     }
     100% {
-        transform: translate(0, 0);
+        opacity: 1;
     }
 }
 

@@ -12,7 +12,7 @@ function scrollListener(e) {
     let hiddenElements = document.getElementsByClassName("hide");
 
     for (element of hiddenElements) {
-        if (isElementXPercentInViewport(element, 1)) {
+        if (isElementXPercentInViewport(element, 50)) {
             element.classList.add("show");
             element.classList.remove("hide");
         }
