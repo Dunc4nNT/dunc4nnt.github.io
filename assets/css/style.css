@@ -116,7 +116,7 @@ section {
     background-color: #000;
 }
 
-.transition > h1 {
+.transition > header > h1 {
     text-shadow: 0.25rem 0.25rem #424242;
 }
 
