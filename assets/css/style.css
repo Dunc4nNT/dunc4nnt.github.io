@@ -12,7 +12,7 @@ body {
 /* TYPING */
 h1, h2 {
     color: #fff;
-    text-shadow: 0.08rem 0.08rem #414141;
+    text-shadow: 0.08rem 0.08rem #424242;
 }
 
 h1 {
@@ -125,10 +125,6 @@ section {
 /* TRANSITIONS */
 .transition {
     background-color: #000;
-}
-
-.transition > header > h1 {
-    text-shadow: 0.25rem 0.25rem #424242;
 }
 
 section > header > p {
